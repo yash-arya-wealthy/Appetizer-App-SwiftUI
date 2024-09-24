@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+DerivedData/
+*.xcarchive
+
+# IDE-specific files
+*.xcworkspace
+xcuserdata/
+*.pbxproj
+
+# Simulator and device data
+Library/Application Support/iPhone Simulator/
+Library/Developer/CoreSimulator/Devices/
+
+# Temporary files
+*~
+#*#
+.DS_Store
+
+# Other
+Pods/
+Package.swift
+
