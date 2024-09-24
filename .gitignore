@@ -7,6 +7,9 @@ DerivedData/
 *.xcworkspace
 xcuserdata/
 *.pbxproj
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
 
 # Simulator and device data
 Library/Application Support/iPhone Simulator/
@@ -17,7 +20,34 @@ Library/Developer/CoreSimulator/Devices/
 #*#
 .DS_Store
 
-# Other
+# CocoaPods
 Pods/
+Podfile.lock
+
+# Swift Package Manager
 Package.swift
+.build/
+.swiftpm/
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Realm
+*.realm
+*.realm.lock
+*.realm.management
+
+# Generated documentation
+docs/
+
+# Other
+*.mode1v3
+*.mode2v3
+*.perspectivev3
 
