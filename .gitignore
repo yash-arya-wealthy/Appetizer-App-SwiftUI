@@ -6,6 +6,8 @@ DerivedData/
 # IDE-specific files
 *.xcworkspace
 xcuserdata/
+Appetizer.xcodeproj/project.xcworkspace/xcuserdata/
+Appetizer.xcodeproj/xcuserdata/
 *.pbxproj
 *.xcuserstate
 *.xccheckout
